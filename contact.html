@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - Nguyễn Văn A</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpeg" href="images/avatar.jpg">
+</head>
+<body>
+    <!-- Thanh điều hướng -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/avatar.jpg" alt="Logo" class="logo-img">
+                <span>NVA.dev</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="contact.html" class="active">Liên hệ</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Tiêu đề trang -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Liên hệ</h1>
+            <p>Có dự án hay chỉ đơn giản là muốn nói lời chào? Hãy gửi tin nhắn cho mình!</p>
+        </div>
+    </header>
+
+    <!-- Form liên hệ -->
+    <section class="section">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <h2>Thông tin liên hệ</h2>
+                <div class="info-item">
+                    <span class="info-icon">📍</span>
+                    <div>
+                        <h4>Địa chỉ</h4>
+                        <p>Quận 1, TP. Hồ Chí Minh, Việt Nam</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">📧</span>
+                    <div>
+                        <h4>Email</h4>
+                        <p>nguyenvana@example.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">📱</span>
+                    <div>
+                        <h4>Điện thoại</h4>
+                        <p>+84 123 456 789</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <span class="info-icon">💻</span>
+                    <div>
+                        <h4>GitHub</h4>
+                        <p>github.com/nguyenvana</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <h2>Gửi tin nhắn</h2>
+                <div class="form-group">
+                    <label for="name">Họ và tên *</label>
+                    <input type="text" id="name" name="name" placeholder="Nhập họ tên của bạn" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Chủ đề</label>
+                    <input type="text" id="subject" name="subject" placeholder="Lời chào, hợp tác, ...">
+                </div>
+                <div class="form-group">
+                    <label for="message">Nội dung *</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Viết tin nhắn của bạn ở đây..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Gửi tin nhắn</button>
+                <p class="form-status" id="formStatus"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Chân trang -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Nguyễn Văn A - Portfolio. Deploy với GitHub Pages.</p>
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
+                <a href="mailto:nguyenvana@example.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu - Nguyễn Văn A</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpeg" href="images/avatar.jpg">
+</head>
+<body>
+    <!-- Thanh điều hướng -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/avatar.jpg" alt="Logo" class="logo-img">
+                <span>NVA.dev</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="about.html" class="active">Giới thiệu</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Tiêu đề trang -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Về mình</h1>
+            <p> Một chút thông tin về con người và hành trình học code</p>
+        </div>
+    </header>
+
+    <!-- Nội dung giới thiệu -->
+    <section class="section">
+        <div class="container about-grid">
+            <div class="about-image">
+                <img src="images/avatar.jpg" alt="Ảnh chân dung Nguyễn Văn A" class="about-avatar">
+            </div>
+            <div class="about-content">
+                <h2>Nguyễn Văn A</h2>
+                <p class="about-role">Sinh viên Công nghệ Thông tin | Full-stack Developer tương lai</p>
+                <p>Mình là sinh viên năm 2 đam mê lập trình web. Mình bắt đầu học code từ năm nhất với
+                mong muốn một ngày nào đó có thể tự tay xây dựng những sản phẩm hữu ích cho cộng đồng.</p>
+                <p>Hiện tại mình đang tập trung vào front-end (HTML, CSS, JavaScript) và dần làm quen với
+                back-end (Node.js, MySQL). Mình tin rằng: <em>"Học đi đôi với hành"</em> - mỗi dự án nhỏ
+                đều là một bước tiến lớn.</p>
+
+                <h3>Kỹ năng</h3>
+                <div class="skills">
+                    <div class="skill">
+                        <span class="skill-name">HTML & CSS</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width:85%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width:70%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Git & GitHub</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width:75%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Node.js (đang học)</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width:40%"></div></div>
+                    </div>
+                </div>
+
+                <h3>Sở thích</h3>
+                <ul class="hobbies">
+                    <li>Đọc sách về công nghệ</li>
+                    <li>Chơi thể thao (bóng đá, cầu lông)</li>
+                    <li>Du lịch và khám phá</li>
+                    <li>Tham gia các cuộc thi lập trình</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hành trình -->
+    <section class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Hành trình học tập</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">2024</div>
+                    <div class="timeline-content">
+                        <h4>Bước chân vào đại học</h4>
+                        <p>Bắt đầu học ngành CNTT, làm quen với ngôn ngữ C và tư duy lập trình.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2025</div>
+                    <div class="timeline-content">
+                        <h4>Khám phá Web Development</h4>
+                        <p>Học HTML, CSS, JavaScript và xây dựng dự án đầu tiên - Todo List.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2026</div>
+                    <div class="timeline-content">
+                        <h4>Deploy dự án đầu tiên</h4>
+                        <p>Hoàn thành portfolio cá nhân và đưa lên GitHub Pages - chính là trang này!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chân trang -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Nguyễn Văn A - Portfolio. Deploy với GitHub Pages.</p>
+            <div class="social-links">
+                <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://facebook.com/" target="_blank" rel="noopener">Facebook</a>
+                <a href="mailto:nguyenvana@example.com">Email</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
